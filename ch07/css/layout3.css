@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#container
+{
+    margin: 0 auto;
+    width: 1200px;
+    height: 860px;
+    background-color: olive;
+}
+
+header{
+    width: 1200x;
+    height: 120px;
+    background-color: floralwhite;
+    padding: 20px;
+}
+
+#LeftSideBar
+{
+    width: 250px;
+    height: 600px;
+    float: left;
+    background-color: gold;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+section
+{
+    width: 800px;
+    height: 600px;
+    float:left;
+    background-color: green;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#RightSideBar
+{
+    width: 150px;
+    height: 600px;
+    float:left;
+    background-color: honeydew;
+    
+}
+
+footer{
+    width: 1200px;
+    height: 100px;
+    ;
+    clear:left;
+    background-color: indianred;
+}

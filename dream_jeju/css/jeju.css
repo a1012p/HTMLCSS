@@ -1,0 +1,112 @@
+
+/* 구글 웹 폰트 적용 */
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Nanum+Pen+Script&family=Sigmar+One&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'nanum pen script', cursive;
+}
+#container{
+    width: 1100px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: steelblue;
+}
+#Logo
+{
+    width: 250px;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+}
+#Logo h1{
+    padding-left : 30px;
+}
+#Logo h1 a{
+    text-decoration: none;
+    color:white;
+}
+nav{
+    width: 850px;
+    height: 100px;
+    float:right;
+    text-align: center;
+}
+#topMenu
+{
+    list-style: none;
+}
+#topMenu li{
+    display: inline;
+    line-height: 100px;
+}
+#topMenu li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 30px;
+}
+
+/* 본문 영역 */
+.contents
+{
+    margin: 50px auto;
+    width: 1000px;
+}
+
+main section{
+    margin-top: 50px;
+    height: 300px;
+}
+
+main div{
+    margin-top: 20px;
+}
+
+main 
+{
+    font-size: 20px;
+}
+.schedule ul
+{
+    list-style: none;
+    line-height: 2.5;
+}
+
+.detail img{
+    float:left;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.detail p{
+    line-height: 2em;
+}
+
+/* 푸터 영역 */
+
+footer{
+    height: 100px;
+    border-top: 2px solid #222;
+}
+
+#bottomMenu ul{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#bottomMenu li{
+    display: inline;
+    padding: 5px 20px;
+    border-right: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+#bottomMenu li a{
+    text-decoration: none;
+    color: black;
+}

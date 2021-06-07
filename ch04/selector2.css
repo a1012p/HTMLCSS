@@ -1,0 +1,16 @@
+body{
+    font-size: 1.2em;
+}
+h1{
+    color : orange !important;
+}
+p{
+    color : blue;
+}
+.redtext{
+    color :red;
+}
+#pinktext
+{
+    color :pink;
+}

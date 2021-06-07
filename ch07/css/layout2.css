@@ -1,0 +1,37 @@
+#container
+{
+    width: 960px;
+    margin: 0px auto;
+    border: 1px dotted #ccc;
+}
+
+header{
+    width: 920px;
+    border: 1px dotted #ccc;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+section{
+    width: 640px;
+    height: 600px;
+    border: 1px dotted #ccc;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    float: left;
+    background-color: azure;
+}
+aside{
+    width: 220px;
+    height: 600px;
+    border: 1px dotted #ccc;
+    margin-bottom: 20px;
+    float: right;
+    padding: 0 20px;
+    background-color: silver;
+}
+footer{
+    width: 960px;
+    border: 1px dotted #ccc;
+    clear:both;
+}
