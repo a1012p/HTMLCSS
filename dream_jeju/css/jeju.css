@@ -119,4 +119,5 @@ footer{
 #bottomMenu li:nth-last-child(1)
 {
     border-right: none;
+    content:"New!";
 }
